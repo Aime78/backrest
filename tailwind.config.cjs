@@ -11,6 +11,8 @@ module.exports = {
         primary: '#F3654A',
         dark: '#110B2D',
         rose: '#E62B4A',
+        bodyText: '#B1A0BD',
+        breatheColor: '#333333;',
       },
       screens: {
         xl: { max: '1279px' },
