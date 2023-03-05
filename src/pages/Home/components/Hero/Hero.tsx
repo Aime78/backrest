@@ -1,5 +1,6 @@
 import { NavBar } from '@/components';
-import image from '@/assets/bk-hero.png';
+import image from '@/pages/Home/assets/images/bk-hero.png';
+
 const Hero = () => (
   <div className="bg-dark">
     <NavBar />

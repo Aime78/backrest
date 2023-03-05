@@ -13,6 +13,7 @@ module.exports = {
         rose: '#E62B4A',
         bodyText: '#B1A0BD',
         breatheColor: '#333333;',
+        orange: '#F3654A',
       },
       screens: {
         xl: { max: '1279px' },
