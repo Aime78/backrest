@@ -44,7 +44,7 @@ const Section = ({ title, subtitle, technologies, techBackgroundColor, body, ima
           {bodyParts.map((part, index) => (
             <React.Fragment key={index}>
               {part}
-              <br />
+              <br className="md:hidden" />
             </React.Fragment>
           ))}
         </p>

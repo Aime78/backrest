@@ -14,6 +14,9 @@ module.exports = {
         bodyText: '#B1A0BD',
         breatheColor: '#333333;',
         orange: '#F3654A',
+        footerColor: '#B8A6C1',
+        footerBackground: '#3B1754',
+        footerBottom: '#110B2D',
       },
       screens: {
         xl: { max: '1279px' },
