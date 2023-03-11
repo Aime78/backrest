@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { MarketStrategy } from '@/pages/Home/assets/icons/Icons';
+import { MarketStrategy } from '@/pages/HomePage/assets/icons/Icons';
 
 type ServiceContainerProps = {
   icon: React.ReactNode;
@@ -9,7 +9,7 @@ type ServiceContainerProps = {
 const ServiceContainer = ({ icon, title, body }: ServiceContainerProps) => {
   const bodyParts = body.split('\n');
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 md:px-2">
       {icon}
       <div>
         <h3 className="font-header font-semibold text-xl text-breatheColor">{title}</h3>

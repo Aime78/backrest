@@ -1,6 +1,6 @@
-import imageOne from '@/pages/Home/assets/images/my-city-report.png';
-import imageTwo from '@/pages/Home/assets/images/lobsta.png';
-import imageThree from '@/pages/Home/assets/images/aviator-logistics.png';
+import imageOne from '@/pages/HomePage/assets/images/my-city-report.png';
+import imageTwo from '@/pages/HomePage/assets/images/lobsta.png';
+import imageThree from '@/pages/HomePage/assets/images/aviator-logistics.png';
 
 const sectionData = [
   {

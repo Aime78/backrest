@@ -8,9 +8,9 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="bg-footerBackground text-footerColor font-body font-medium text-base px-16 pt-12">
+      <div className="bg-footerBackground md:px-4 text-footerColor font-body font-medium text-base px-16 pt-12">
         {/* First part */}
-        <div className="flex justify-between pb-8 border-b-[1px] border-footerColor">
+        <div className="flex md:flex-col justify-between pb-8 border-b-[1px] border-footerColor">
           <div>
             <LogoFooter />
             <p className="mt-4">
@@ -21,19 +21,19 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <p>
+            <p className="md:my-4">
               <Link to={appRoutes.WORK}>Our work</Link>
             </p>
-            <p className="my-8">
+            <p className="md:my-4 my-8">
               <Link to={appRoutes.SERVICES}>Services</Link>
             </p>
-            <p>
+            <p className="md:my-4">
               <Link to={appRoutes.ABOUT}>About us</Link>
             </p>
           </div>
           <div>
             <p>Privacy policy</p>
-            <p className="my-8">Cookie Settings</p>
+            <p className="md:my-4 my-8">Cookie Settings</p>
           </div>
           <Link to={appRoutes.CONTACT}>
             <div className="w-[110px] text-center font-header font-semibold text-footerColor text-sm rounded-3xl px-2 py-2 border-[1px] border-footerColor">Contact us</div>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
 
         {/* Second part */}
-        <div className="flex justify-between py-4">
+        <div className="flex md:gap-6 justify-between py-4">
           <div>
             <p>Rwanda Office:</p>
             <p className="py-4">
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
 
       {/* Third part */}
-      <div className="bg-footerBottom text-footerColor font-body font-medium px-16">
+      <div className="bg-footerBottom md:px-4 text-footerColor font-body font-medium px-16">
         <p className="py-4">{`© ${year} Backrest Tech. All rights reserved.`}</p>
       </div>
     </div>

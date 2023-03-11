@@ -1,4 +1,4 @@
-import { MarketStrategy, NativeApp, QA, UXUI } from '@/pages/Home/assets/icons/Icons';
+import { MarketStrategy, NativeApp, QA, UXUI } from '@/pages/HomePage/assets/icons/Icons';
 
 const serviceData = [
   {

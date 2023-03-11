@@ -41,7 +41,7 @@ const Home = () => {
           <div className="bg-rose w-[250px] text-center font-header font-semibold text-white text-medium rounded-3xl px-4 py-2">App development services</div>
         </Link>
       </div>
-      <div className="flex flex-col items-center text-center py-16" style={{ background: 'linear-gradient(90deg, #FAA43E 0%, #DB212F 100%)' }}>
+      <div className="flex flex-col items-center text-center py-16 md:px-2" style={{ background: 'linear-gradient(90deg, #FAA43E 0%, #DB212F 100%)' }}>
         <h3 className="font-heading font-bold text-3xl text-white">Got a mobile riddle for us?</h3>
         <p className="font-body font-medium text-xl text-white mb-4">
           Challenge accepted. We’ve solved quite a few of those in the past. <br /> See for yourself.
