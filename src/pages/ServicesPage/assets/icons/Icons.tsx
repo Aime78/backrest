@@ -238,3 +238,21 @@ export const LineIcon = () => (
     </svg>
   </>
 );
+
+export const CheckOrangeIcon = () => (
+  <>
+    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect y="0.78125" width="20" height="20" rx="10" fill="#F58841" />
+      <path d="M14.8125 7.9375L8.6875 14.0625L5.625 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </>
+);
+
+export const CheckMajentaIcon = () => (
+  <>
+    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect y="0.78125" width="20" height="20" rx="10" fill="#3B1159" />
+      <path d="M14.8125 7.9375L8.6875 14.0625L5.625 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </>
+);

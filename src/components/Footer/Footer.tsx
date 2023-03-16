@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="bg-footerBackground md:px-4 text-footerColor font-body font-medium text-base px-16 pt-12">
+      <div className="bg-footerBackground md:px-4 text-footerColor font-light text-normal px-16 pt-12">
         {/* First part */}
         <div className="flex md:flex-col justify-between pb-8 border-b-[1px] border-footerColor">
           <div>
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
 
       {/* Third part */}
-      <div className="bg-footerBottom md:px-4 text-footerColor font-body font-medium px-16">
+      <div className="bg-footerBottom md:px-4 text-footerColor font-light text-normal px-16">
         <p className="py-4">{`© ${year} Backrest Tech. All rights reserved.`}</p>
       </div>
     </div>
