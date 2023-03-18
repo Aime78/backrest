@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Logo, Arrow, BurgerMenu } from '@/assets';
 import { ArrowRose } from '@/assets/Arrow';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import appRoutes from '@/routes/routes';
 import { AiOutlineClose } from 'react-icons/ai';
 import ServicesToggle from '../ServicesToggle/ServicesToggle';
@@ -19,9 +20,9 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="md:hidden pt-2 text-white font-header text-sm font-semibold flex gap-6 items-center">
-          <Link to={appRoutes.WORK} className="hover:text-rose">
+          <HashLink smooth to="/work" className="hover:text-rose">
             Our work
-          </Link>
+          </HashLink>
           <Link to={appRoutes.ABOUT} className="hover:text-rose">
             About us
           </Link>
