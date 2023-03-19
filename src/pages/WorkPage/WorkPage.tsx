@@ -1,9 +1,13 @@
+import { useEffect } from 'react';
 import { Footer, NavBar } from '@/components';
 import { BubbleIcon } from './assets/icons/Icons';
 import sectionData from './data/SectionData';
 import Section from './components/Section/Section';
 
 const WorkPage = () => {
+  useEffect(() => {
+    document.title = 'Software Development Company | Backrest';
+  }, []);
   return (
     <div>
       <div className="z-10 relative">

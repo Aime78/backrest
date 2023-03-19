@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Footer } from '@/components';
 import appRoutes from '@/routes/routes';
 import { Link } from 'react-router-dom';
@@ -6,6 +7,10 @@ import sectionData from './data/SectionData';
 import serviceData from './data/ServiceData';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Software Development Agency';
+  }, []);
+
   return (
     <div>
       <Hero />
@@ -27,7 +32,7 @@ const Home = () => {
         </Link>
 
         <h2 className="md:text-center font-header font-bold text-3xl text-breatheColor mt-16">Start-to-end app development agency</h2>
-        <p className="md:text-center font-body font-medium px-2 text-bodyText text-xl mb-4">
+        <p className="md:text-center font-body font-medium px-2 text-bodyText text-xl mb-4 mt-4">
           This mobile app development agency is all in. We <br className="md:hidden" />
           provide app design and app development services for <br className="md:hidden" />
           every stage of your mobile project.

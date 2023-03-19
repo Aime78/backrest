@@ -19,9 +19,9 @@ const BuildServices = () => {
       <div className="md:flex md:flex-col md:w-[100%] grid grid-cols-3 grid-rows-3 w-[800px]">
         {BuildServiceData.map((service) => (
           <div key={service.id} className="flex flex-col items-center relative p-8">
-            <div className="absolute top-14 left-0 md:w-[50px] md:top-4 md:left-[150px] md:rotate-90">{service.rowIcon}</div>
-            <div className="md:mt-8">{service.icon}</div>
-            <h3 className="font-semibold text-white text-xl mb-4 mt-2">{service.title}</h3>
+            <div className="absolute top-14 left-0 md:w-[50px] md:top-2 md:left-[155px] md:rotate-90">{service.rowIcon}</div>
+            <div className="md:mt-8 ">{service.icon}</div>
+            <h3 className="font-semibold text-white text-xl mb-4 mt-2">{service.title} </h3>
             {service.body.split('\n').map((line, index) => (
               <p key={index} className="font-light text-white text-sm text-center">
                 {line}

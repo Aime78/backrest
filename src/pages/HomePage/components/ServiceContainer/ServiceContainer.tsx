@@ -9,11 +9,11 @@ type ServiceContainerProps = {
 const ServiceContainer = ({ icon, title, body }: ServiceContainerProps) => {
   const bodyParts = body.split('\n');
   return (
-    <div className="flex gap-4 md:px-2">
+    <div className="flex gap-4 md:px-2 mt-4">
       {icon}
       <div>
         <h3 className="font-header font-semibold text-xl text-breatheColor">{title}</h3>
-        <p className="font-body font-light text-base mb-2 md:mb-6 my-2">
+        <p className="font-body font-light text-base mb-2 md:mb-6 my-2 leading-7">
           {' '}
           {bodyParts.map((part, index) => (
             <React.Fragment key={index}>

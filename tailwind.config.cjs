@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     fontFamily: {
       header: ['Arial'],
-      body: ['Campton'],
     },
     extend: {
       colors: {

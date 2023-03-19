@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Footer, NavBar } from '@/components';
 import { Link } from 'react-router-dom';
 import { Mail } from './assets/icons/Icon';
@@ -5,6 +6,10 @@ import InputField from './components/InputField/InputField';
 import RadioField from './components/RadioField/RadioField';
 
 const ContactUsPage = () => {
+  useEffect(() => {
+    document.title = 'Contact Us - Backrest';
+  }, []);
+
   return (
     <div>
       <div className="relative z-10">

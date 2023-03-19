@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Footer, NavBar } from '@/components';
 import appRoutes from '@/routes/routes';
 import { Link } from 'react-router-dom';
@@ -13,6 +14,9 @@ import SectionScale from './components/SectionScale/SectionScale';
 import SectionStrategy from './components/SectionStrategy/SectionStrategy';
 
 const ServicePage = () => {
+  useEffect(() => {
+    document.title = 'Our Services As a Product Partner | Backrest';
+  }, []);
   return (
     <div>
       <div className="z-10 relative">

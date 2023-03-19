@@ -1,9 +1,14 @@
 import { Footer, NavBar } from '@/components';
+import { useEffect } from 'react';
 import { BubbleIconSmall } from './assets/Icons';
 import MobileFirst from './components/MobileFirst/MobileFirst';
 import Reasons from './components/Reasons/Reasons';
 
 const AboutUsPage = () => {
+  useEffect(() => {
+    document.title = 'About Us | Backrest';
+  }, []);
+
   return (
     <div>
       <div className="z-10 relative">

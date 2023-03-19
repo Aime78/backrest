@@ -22,7 +22,7 @@ const Section = ({ title, subtitle, technologies, techBackgroundColor, body, ima
     <div className={`md:flex-col-reverse flex ${reverse ? 'flex-row-reverse' : ''} md:text-center`} style={{ backgroundColor: `${backgroundColor}` }}>
       <div className={`p-14 md:px-2 md:py-4 flex flex-col justify-center w-[50%] md:w-[100%] text-${fontColor}`}>
         <h2 className="font-header font-semibold text-3xl md:text-2xl mb-2">{title}</h2>
-        <div className={`md:hidden border-b-[1.5px] border-${color} w-[60px]`}></div>
+        <div className={`md:hidden w-[60px]`} style={{ border: `1.5px solid ${color}` }}></div>
         <h3 className="font-header font-semibold text-xl mt-4 mb-2">
           {' '}
           {subtitleParts.map((part, index) => (
@@ -39,7 +39,7 @@ const Section = ({ title, subtitle, technologies, techBackgroundColor, body, ima
             </div>
           ))}
         </div>
-        <p className="font-body font-light text-base mb-2 md:mb-6 my-2">
+        <p className="font-body font-light text-base mb-2 md:mb-6 my-2 leading-7">
           {' '}
           {bodyParts.map((part, index) => (
             <React.Fragment key={index}>
@@ -50,7 +50,9 @@ const Section = ({ title, subtitle, technologies, techBackgroundColor, body, ima
         </p>
 
         <Link to={appRoutes.WORK}>
-          <div className={`md:w-[100%] w-[100px] md:rounded-xl rounded-3xl border-[1px] border-${color} px-4 py-2 font-body font-bold text-sm`}>View work</div>
+          <div className={`md:w-[100%] w-[108px] md:rounded-xl rounded-3xl px-4 py-2 mt-2 font-body font-bold text-sm`} style={{ border: `1px solid ${color}` }}>
+            View work
+          </div>
         </Link>
       </div>
       <div className="w-[50%] md:w-[100%] py-16 md:py-2">
